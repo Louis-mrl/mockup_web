@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+        body {
+            background-color: black;
+            overflow: hidden;
+        }
+
+        #image_track {
+            display: flex;
+            padding: 15% 0px 15% 50%;
+            gap: 4vmin;
+        }
+
+        .image {
+            width: 40vmin;
+            height: 56vmin;
+            object-fit: cover;
+
+        }
+    </style>
+</head>
+<body>
+
+        <div id="image_track" data-mouse-down-at="0" data-prev-percentage="0" data-percentage="0" data-full_screen="0">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="0" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="1" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="2" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="3" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="4" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="5" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="6" draggable="false">
+            <img src="../assets/img/home_1.jpg" id="img" class="image" data-n="6" draggable="false">
+        </div>
+    
+    
+    <script src="click.js"></script>
+    
+</body>
+</html>
